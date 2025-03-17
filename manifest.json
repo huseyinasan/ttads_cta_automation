@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "TikTok CTA Automator",
+  "version": "1.0",
+  "description": "Removes old CTAs and selects new ones in TikTok Ads Manager.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://ads.tiktok.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
